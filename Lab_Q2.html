@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 300px;
+        margin: auto;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      button {
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <form>
+      <table>
+        <tr>
+          <th><label for="username">Username</label></th>
+          <td><input type="text" id="username" name="username" /></td>
+        </tr>
+        <tr>
+          <th><label for="password">Password</label></th>
+          <td><input type="password" id="password" name="password" /></td>
+        </tr>
+      </table>
+      <br />
+      <button type="submit">Login</button>
+      <button type="button">Cancel</button>
+      <br /><br />
+      <label><input type="checkbox" name="remember" /> Remember me</label>
+      <br />
+      <a href="#">Forgot password?</a>
+    </form>
+  </body>
+</html>

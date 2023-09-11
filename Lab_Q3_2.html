@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table using Colspan</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 60%;
+        margin: auto;
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<h2>Using Colspan</h2>
+<table>
+    <tr>
+        <td colspan="2">Users Info</td>
+    </tr>
+    <tr>
+        <th>1</th>
+        <td>John Carter</td>
+        <td>johncarter@mail.com</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>Peter Parker</td>
+        <td>peterparker@mail.com</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>John Rambo</td>
+        <td>johnrambo@mail.com</td>
+        <td>johncarter@mail.com</td>
+    </tr>
+</table>
+<br>
+<table>
+    <tr>
+        <th colspan="2">Fruit juice Drinks and Meals</th>
+    </tr>
+    <tr>
+        <td>Fruit juice</td>
+        <td>Drinks</td>
+    </tr>
+    <tr>
+        <td>Apple</td>
+        <td>Orange</td>
+        <td>Screw Driver</td>
+    </tr>
+    <tr>
+        <td>Breakfast</td>
+        <td colspan="3">0</td>
+    </tr>
+    <tr>
+        <td>Lunch</td>
+        <td colspan="3">1</td>
+    </tr>
+    <tr>
+        <td>Dinner</td>
+        <td colspan="3">1</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table using Rowspan</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Using Rowspan</h2>
+    <table>
+      <tr>
+        <th>1</th>
+        <td rowspan="3">John Carter</td>
+        <td>Users Info</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>Peter Parker</td>
+        <td rowspan="2">peterparker@mail.com</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td>John Rambo</td>
+      </tr>
+    </table>
+  </body>
+</html>
